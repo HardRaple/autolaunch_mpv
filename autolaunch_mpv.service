@@ -1,0 +1,10 @@
+[Unit]
+Description=autolaunch_mpv
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python /path-to-python-file/python_file.py
+
+[Install]
+WantedBy=default.target
+
